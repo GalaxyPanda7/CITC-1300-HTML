@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Wars</title>
+    <link rel="stylesheet" href="css/styles.css">
     <style>
         body {
             background-color: rgb(0, 0, 0);
@@ -80,13 +81,14 @@
         .nav-links {
             list-style: none;
             display: flex;
-            gap: 15px;
+            gap: 10px;
         }
 
         .nav-links a {
             text-decoration: none;
             color: white;
             transition: color 0.3s ease;
+            font-weight: bold;
         }
 
         .nav-links a:hover {
@@ -96,11 +98,12 @@
 </head>
 
 <body>
+    <div id="container">
     <header>
         <h1> Star Wars</h1>
-        <hr>
-    </header>
 
+    </header>
+        <hr>
     <nav>
         <ul class="nav-links">
             <li><a href="index.html">Home/</a></li>
@@ -240,7 +243,11 @@
 
     <hr>
 
+    
+<footer>
     <p>&copy; 2025 Copyright Star Wars Lore</p>
+</footer>
+</div>
 </body>
 
 </html>
