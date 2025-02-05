@@ -32,7 +32,7 @@
 
         p {
             color: aliceblue;
-            font-family: Georgia, 'Times New Roman', Times, serif ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
         ul,
@@ -63,19 +63,52 @@
             border-radius: 10px;
             /* Optional: rounded corners */
         }
+
+        /* Nav Styling */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: aqua;
+        }
     </style>
 </head>
 
 <body>
     <header>
         <h1> Star Wars</h1>
+        <hr>
     </header>
+
     <nav>
-        <a href="index.html">Home/</a>
-        <a href="clonewars.html">Clone Wars/</a>
-        <a href="order66.html">Order 66/</a>
-        <a href="empire.html">Rise of the Empire/</a>
-        <a href="favorite.html">My Favorites/</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home/</a></li>
+            <li><a href="clonewars.html">Clone Wars/</a></li>
+            <li><a href="order66.html">Order 66/</a></li>
+            <li><a href="empire.html">Rise of the Empire/</a></li>
+            <li><a href="favorite.html">My Favorites/</a></li>
+        </ul>
     </nav>
 
     <hr>

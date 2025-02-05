@@ -12,8 +12,8 @@
 
         img {
             display: block;
-            width: 800px;
-            margin: 0 auto;
+            width: 300px;
+            margin: 10 auto;
             border: 2px solid #ccc;
             /* Optional: border for styling */
             border-radius: 10px;
@@ -32,7 +32,7 @@
 
         p {
             color: aliceblue;
-            font-family: Georgia, 'Times New Roman', Times, serif ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
         ul,
@@ -54,7 +54,7 @@
         }
 
         .image-container img {
-            width: 800px;
+            width: 300px;
             /* Set a width for the images */
             height: auto;
             /* Maintain aspect ratio */
@@ -63,31 +63,182 @@
             border-radius: 10px;
             /* Optional: rounded corners */
         }
+
+        /* Nav Styling */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:#333;
+            color: white;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: aqua;
+        }
     </style>
 </head>
 
 <body>
     <header>
         <h1> Star Wars</h1>
+        <hr>
     </header>
+
     <nav>
-        <a href="index.html">Home/</a>
-        <a href="clonewars.html">Clone Wars/</a>
-        <a href="order66.html">Order 66/</a>
-        <a href="empire.html">Rise of the Empire/</a>
-        <a href="favorite.html">My Favorites/</a>
-    
+        <ul class="nav-links">
+            <li><a href="index.html">Home/</a></li>
+            <li><a href="clonewars.html">Clone Wars/</a></li>
+            <li><a href="order66.html">Order 66/</a></li>
+            <li><a href="empire.html">Rise of the Empire/</a></li>
+            <li><a href="favorite.html">My Favorites/</a></li>
+        </ul>
+
     </nav>
+
+    <hr>
+
+    <h2>My Favorite Movies/Shows/Games</h2>
+
+
+
+    <h3>Top 3 Movies:</h3>
+
+
+    <ul>
+        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith">Episode
+                III– Revenge of the Sith</a></li>
+        <li><a href="https://starwars.fandom.com/wiki/Rogue_One:_A_Star_Wars_Story">Rogue One: A Star Wars Story</a>
+        </li>
+        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back">Episode V
+                The Empire Strikes Back</a></li>
+    </ul>
+
+    <div class="image-container">
+        <img src="https://www.themoviedb.org/t/p/original/9R2ztN8KeLZoTUuvSJHURssvLsR.jpg" alt="Revenge Of The Sith">
+        <img src="https://image.tmdb.org/t/p/original/fGjal6IQC4lNG7VEwke7xKyMQOY.jpg" alt="Rogue One">
+        <img src="https://pics.filmaffinity.com/Star_Wars_Episode_V_The_Empire_Strikes_Back-701818523-large.jpg"
+            alt="Empire Strikes Back">
+    </div>
+
+
+    <h3>Top 3 Shows:</h3>
+
+
+    <ul>
+        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars">The Clone Wars</a>(series)
+        </li>
+        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Bad_Batch">The Bad Batch</a></li>
+        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/The_Mandalorian">The Mandalorian</a></li>
+
+    </ul>
+
+    <div class="image-container">
+        <img src="https://www.tvguide.com/a/img/catalog/provider/1/1/1-8261149566.jpg" alt="Clone Wars">
+        <img src="https://m.media-amazon.com/images/M/MV5BZTVjNTVjMDMtNjUyMC00ZmM0LWE4OWMtMWZkNzY4NjM0NDMzXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+            alt="The Bad Batch">
+        <img src="https://www.starwarsnewsnet.com/wp-content/uploads/2023/01/TheMandalorian_Poster_Season3.jpg"
+            alt="The Mandalorian">
+
+    </div>
+
+    <h3>Top 3 Games:</h3>
+
+    <ul>
+        <li>Star Wars:<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed">The Force Unleashed</a>
+        </li>
+        <li>Star Wars:<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed">The Force Unleashed
+                II</a> </li>
+        <li>Star Wars:<a href="https://starwars.fandom.com/wiki/Star_Wars_Battlefront_II"> Battlefront 2</a>(2017)</li>
+
+    </ul>
+
+    <div class="image-container">
+        <img src="https://i.pinimg.com/originals/9b/c5/a6/9bc5a699e691ffff02651d1fc3be0b4a.jpg" alt="Force Unleashed">
+        <img src="https://m.media-amazon.com/images/M/MV5BNzA2OTdkMWMtZmJhZS00ZTBiLWI4NDktZTE3MGE4YjdjNGE5L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+            alt="Force Unleashed 2">
+        <img src="https://static.posters.cz/image/1300/poster/star-wars-battlefront-2-game-cover-i51530.jpg"
+            alt="Battlefront 2">
+    </div>
 
     <hr>
 
     <h2>My Favorite Characters</h2>
 
+    <h3>Top 3:</h3>
+
+    <ul>
+        <li><a href="https://starwars.fandom.com/wiki/Ahsoka_Tano">Ahsoka Tano</a></li>
+        <li><a href="https://starwars.fandom.com/wiki/Rex">Captain Rex</a></li>
+        <li><a href="https://starwars.fandom.com/wiki/Obi-Wan_Kenobi">Obi-Wan Kenobi</a></li>
+
+    </ul>
+
+    <div class="image-container">
+        <img src="ImagesSW/ahsokatano.webp" alt="Ahsoka Tano">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/ddr64g6-37c1a399-9202-4044-8545-b00cb26df9ce.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGRyNjRnNi0zN2MxYTM5OS05MjAyLTQwNDQtODU0NS1iMDBjYjI2ZGY5Y2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.wM2cYC7emWtGISwq99GRuCxPJmRzbYtvyWe5Cs9V0w8"
+            alt="Captain Rex">
+        <img src="http://pm1.aminoapps.com/6481/cbf8eb4757fe54495d55b11d57c7504255999d91_00.jpg" alt="ObiWan">
+    </div>
+
+
     <hr>
-<h2>My Favorite Planets</h2>
-<hr>
 
+    <h2>My Favorite Planets</h2>
 
+    <h3>Top 3:</h3>
+
+    <ul>
+        <li><a href="https://starwars.fandom.com/wiki/Kamino">Kamino</a></li>
+        <li><a href="https://starwars.fandom.com/wiki/Naboo">Naboo</a></li>
+        <li><a href="https://starwars.fandom.com/wiki/Scarif">Scarif</a></li>
+    </ul>
+
+    <div class="image-container">
+        <img src="https://wallpaperwaifu.com/wp-content/uploads/2020/09/star-wars-battlefront-II-battle-of-kamino-thumb-1500x844.jpg"
+            alt="kamino">
+        <img src="https://wallpaperaccess.com/full/5955773.jpg" alt="Naboo">
+        <img src="https://w0.peakpx.com/wallpaper/778/181/HD-wallpaper-stormtroopers-empire-movie-one-rogue-scarif-star-story-wars.jpg"
+            alt="Scarif">
+    </div>
+
+    <hr>
+
+    <h2>My Favorite Driods</h2>
+
+    <h3>Top 3:</h3>
+
+    <ul>
+        <li><a href="https://starwars.fandom.com/wiki/R2-D2">R2-D2</a></li>
+        <li><a href="https://starwars.fandom.com/wiki/K-2SO">K-2SO</a></li>
+        <li><a href="https://starwars.fandom.com/wiki/ID10_seeker_droid">ID10</a></li>
+    </ul>
+
+    <div class="image-container">
+        <img src="https://vignette.wikia.nocookie.net/es.starwars/images/e/e2/Artoo-Fathead.png/revision/latest?cb=20180108172244"
+            alt="R2-D2">
+        <img src="https://vignette.wikia.nocookie.net/starwars/images/f/fd/K-2SO_Sideshow.png/revision/latest?cb=20170302003128"
+            alt="K-2SO">
+        <img src="https://img.etsystatic.com/il/77ca48/1357024706/il_570xN.1357024706_bks1.jpg?version=0" alt="ID10">
+    </div>
+
+    <hr>
 
     <p>&copy; 2025 Copyright Star Wars Lore</p>
 </body>

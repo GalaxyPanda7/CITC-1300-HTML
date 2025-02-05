@@ -32,7 +32,7 @@
 
         p {
             color: aliceblue;
-            font-family: Georgia, 'Times New Roman', Times, serif ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
         ul,
@@ -63,24 +63,57 @@
             border-radius: 10px;
             /* Optional: rounded corners */
         }
+
+        /* Nav Styling */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: aqua;
+        }
     </style>
 </head>
 
 <body>
     <header>
         <h1> Star Wars</h1>
+        <hr>
     </header>
+
     <nav>
-        <a href="index.html">Home/</a>
-        <a href="clonewars.html">Clone Wars/</a>
-        <a href="order66.html">Order 66/</a>
-        <a href="empire.html">Rise of the Empire/</a>
-        <a href="favorite.html">My Favorites/</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home/</a></li>
+            <li><a href="clonewars.html">Clone Wars/</a></li>
+            <li><a href="order66.html">Order 66/</a></li>
+            <li><a href="empire.html">Rise of the Empire/</a></li>
+            <li><a href="favorite.html">My Favorites/</a></li>
+        </ul>
     </nav>
 
     <hr>
 
-    
+
     <h2>Rise of the Empire</h2>
     <p>In the decades following, the empire rose into power slowly taking over the galaxy. Many jedi were hunted into
         extinction. Very few jedi survived by going into hiding. Eventually people across the galaxy band together to
@@ -106,27 +139,33 @@
     <h3>Media taken place during this time period</h3>
     <ul>
         <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith">Episode III
-            – Revenge of the Sith</a></li>
-        <li><a href="https://starwars.fandom.com/wiki/Rogue_One:_A_Star_Wars_Story">Rogue One: A Star Wars Story</a></li>
-        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_IV_A_New_Hope">Episode IV A New Hope</a></li>
-        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back">Episode V The Empire Strikes Back</a></li>
-        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi">Episode VI Return of the Jedi</a></li>
+                – Revenge of the Sith</a></li>
+        <li><a href="https://starwars.fandom.com/wiki/Rogue_One:_A_Star_Wars_Story">Rogue One: A Star Wars Story</a>
+        </li>
+        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_IV_A_New_Hope">Episode IV A New
+                Hope</a></li>
+        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back">Episode V
+                The Empire Strikes Back</a></li>
+        <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi">Episode VI
+                Return of the Jedi</a></li>
         <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_Tales_of_the_Jedi_(television_series)">Tales
-            of the Jedi</a></li>
+                of the Jedi</a></li>
         <li>Star Wars: <a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Bad_Batch">The Bad Batch</a></li>
         <li>Star Wars: <a href="https://starwars.fandom.com/wiki/The_Mandalorian">The Mandalorian</a></li>
-        <li>There are also many video games that take place during this time. Including one of my favorites; <a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed">The Force
-            Unleashed</a>.</li>
+        <li>There are also many video games that take place during this time. Including one of my favorites; <a
+                href="https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed">The Force
+                Unleashed</a>.</li>
     </ul>
 
     <div class="image-container">
-    <img src="https://wallpaperaccess.com/full/1386897.jpg" alt="Starkiller">
-    <img src="https://www.bikesrepublic.com/wp-content/uploads/2017/05/starwars-luke-xwingcockpit-2.jpg" alt="luke-xwing">
-</div>
+        <img src="https://wallpaperaccess.com/full/1386897.jpg" alt="Starkiller">
+        <img src="https://www.bikesrepublic.com/wp-content/uploads/2017/05/starwars-luke-xwingcockpit-2.jpg"
+            alt="luke-xwing">
+    </div>
 
     <hr>
 
-<a href=""></a>
+    <a href=""></a>
 
 
     <p>&copy; 2025 Copyright Star Wars Lore</p>
