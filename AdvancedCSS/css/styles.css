@@ -1,0 +1,51 @@
+body{
+    background-color:black;
+}
+img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+#container{
+    width:50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+}   
+h1{
+    text-align: center;
+    color: blue;
+    border-bottom: 1px solid black;
+}
+/* centers and makes gray box*/
+nav{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+}
+/*gets rid of bullet points*/
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*makes the points right next to eachother*/
+nav li{
+    display: inline;
+}
+nav a{
+    display:inline-block;
+    width: 100px;
+    height:20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+nav a:hover{
+    background-color: black;
+}
