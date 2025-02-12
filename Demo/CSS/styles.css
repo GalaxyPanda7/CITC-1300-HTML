@@ -72,9 +72,10 @@ a {
 /* Nav Styling */
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #333;
+    border: solid 2px white;
     color: white;
     padding: 10px 20px;
     position: sticky;
@@ -87,13 +88,19 @@ nav {
     display: flex;
     gap: 10px;
 }
-
-.nav-links a {
-    text-decoration: none;
+nav a{
+    display:inline-block;
+    width: 150px;
+    height:10px;
+    padding: 20px;
     color: white;
+    background-color: black;
     transition: color 0.3s ease;
     font-weight: bold;
+    text-decoration: none;
+    text-align: center;
 }
+
 
 .nav-links a:hover {
     color: aqua;
@@ -101,9 +108,9 @@ nav {
 footer{
     text-align: center;
     background-color: #333;
+    border: solid 2px white;
     padding: 10px;
     color: white;
-    border-bottom: white;
 }
 
 main{
