@@ -1,0 +1,53 @@
+/*Global*/
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*Mobile Styles*/
+#container{
+    margin: 0 auto;
+    background-color: cadetblue;
+    padding: 10px;
+    border: 2px solid white;
+}
+header h1{
+    text-align: center;
+    font-size: 24px;
+    color:black;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+/*Tablet Styles*/
+
+
+/*Desktop Styles*/

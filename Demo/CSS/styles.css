@@ -1,0 +1,139 @@
+body {
+        background-image: url('https://e0.pxfuel.com/wallpapers/357/419/desktop-wallpaper-hyperspace-star-wars-hyperspace.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      
+}
+
+img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    /* Optional: border for styling */
+    border-radius: 10px;
+    /* Optional: rounded corners */
+}
+
+#container{
+    width:80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    border:2px solid white;
+
+}   
+.heading_style{
+    text-shadow: 2px 2px 4px aqua;
+}
+h1,
+h2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul,
+ol {
+    color: aliceblue;
+}
+
+a {
+    color: aqua;
+}
+
+.image-container {
+    display: flex;
+    /* Flexbox layout for side-by-side alignment */
+    justify-content: center;
+    /* Center images horizontally */
+    gap: 20px;
+    /* Space between the images */
+}
+
+.image-container img {
+    width: 70%;
+    /* Set a width for the images */
+    height: auto;
+    /* Maintain aspect ratio */
+    border: 2px solid #ccc;
+    /* Optional: border for styling */
+    border-radius: 10px;
+    /* Optional: rounded corners */
+}
+
+/* Nav Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border: solid 2px white;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+nav a{
+    display:inline-block;
+    width: 150px;
+    height:10px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.nav-links a:hover {
+    color: aqua;
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    border: solid 2px white;
+    padding: 10px;
+    color: white;
+}
+
+main{
+    display: flex;
+}
+article, aside{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+}
+article{
+    width:70%;
+}
+aside{
+    width: 30%;
+}
+section{
+    padding: 10px;
+    margin: 10px auto;
+}
+section {
+width:900px;
+}
