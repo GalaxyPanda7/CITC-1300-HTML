@@ -25,6 +25,9 @@ img {
     border:2px solid white;
 
 }   
+.heading_style{
+    text-shadow: 2px 2px 4px aqua;
+}
 h1,
 h2 {
     text-align: center;
