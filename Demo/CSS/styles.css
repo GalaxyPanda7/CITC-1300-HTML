@@ -83,6 +83,7 @@ nav ul li a {
     text-decoration: none;
     margin-top: 10px;
     font-weight: bold;
+    border: 2px solid #ccc;
 }
 
 @media(min-width: 768px) {
