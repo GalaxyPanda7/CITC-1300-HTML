@@ -1,9 +1,9 @@
+/*------------------------------Global------------------------------*/
 body {
-        background-image: url('https://e0.pxfuel.com/wallpapers/357/419/desktop-wallpaper-hyperspace-star-wars-hyperspace.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-      
+    background-image: url('https://e0.pxfuel.com/wallpapers/357/419/desktop-wallpaper-hyperspace-star-wars-hyperspace.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 img {
@@ -16,18 +16,19 @@ img {
     /* Optional: rounded corners */
 }
 
-#container{
-    width:80%;
+#container {
+    width: 80%;
     margin: 0 auto;
     padding: 10px;
     background-color: black;
     border-radius: 10px;
-    border:2px solid white;
+    border: 2px solid white;
+}
 
-}   
-.heading_style{
+.heading_style {
     text-shadow: 2px 2px 4px aqua;
 }
+
 h1,
 h2 {
     text-align: center;
@@ -52,7 +53,142 @@ a {
     color: aqua;
 }
 
-.image-container {
+.nav-links a:hover {
+    color: aqua;
+    transition: color 0.5s ease;
+}
+
+
+/*------------------------------Mobile Styles------------------------------*/
+
+nav {
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+@media(min-width: 768px) {
+    #container {
+        width: 80%;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        padding: 10px 20px;
+    }
+}
+
+#upper_section {
+    display: flex;
+}
+
+section,
+aside {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 2px;
+}
+
+img {
+    width: 70%;
+    border: 2px solid white;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+/*------------------------------Tablet Styles------------------------------*/
+@media(min-width: 768px) {
+    #container {
+        width: 80%;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        padding: 10px 20px;
+    }
+
+    nav {
+        background-image: url("../ImagesSW/resizeddeathstar.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 2px;
+        margin-top: 10px;
+        border: 2px solid white;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+}
+
+#upper_section {
+    display: flex;
+}
+
+section,
+aside {
+    width: 95%;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 2px;
+}
+
+img {
+    width: 80%;
+    border: 2px solid white;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+/* Favorites Image Container */
+.image-container1 {
     display: flex;
     /* Flexbox layout for side-by-side alignment */
     justify-content: center;
@@ -61,8 +197,9 @@ a {
     /* Space between the images */
 }
 
-.image-container img {
-    width: 70%;
+
+.image-container1 img {
+    width: 30%;
     /* Set a width for the images */
     height: auto;
     /* Maintain aspect ratio */
@@ -72,68 +209,82 @@ a {
     /* Optional: rounded corners */
 }
 
-/* Nav Styling */
-nav {
+/* Other Pages Images */
+.image-container {
     display: flex;
+    /* Flexbox layout for side-by-side alignment */
     justify-content: center;
-    align-items: center;
-    background-color: #333;
-    border: solid 2px white;
-    color: white;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
-nav a{
-    display:inline-block;
-    width: 150px;
-    height:10px;
-    padding: 20px;
-    color: white;
-    background-color: black;
-    transition: color 0.3s ease;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
+    /* Center images horizontally */
+    gap: 5px;
+    /* Space between the images */
 }
 
 
-.nav-links a:hover {
-    color: aqua;
-}
-footer{
-    text-align: center;
-    background-color: #333;
-    border: solid 2px white;
-    padding: 10px;
-    color: white;
+.image-container img {
+    width: 49%;
+    /* Set a width for the images */
+    height: auto;
+    /* Maintain aspect ratio */
+    border: 2px solid #ccc;
+    /* Optional: border for styling */
+    border-radius: 10px;
+    /* Optional: rounded corners */
 }
 
-main{
-    display: flex;
-}
-article, aside{
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid white;
-}
-article{
-    width:70%;
-}
-aside{
-    width: 30%;
-}
-section{
-    padding: 10px;
-    margin: 10px auto;
-}
-section {
-width:900px;
+/*------------------------------Desktop Styles------------------------------*/
+@media(min-width: 1024px) {
+    #container {
+        width: 80%;
+    }
+
+    main {
+        display: flex;
+    }
+
+    article,
+    aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid white;
+    }
+
+    article {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    section {
+        width: 95%;
+    }
+
+    /* Other Pages Images */
+    .image-container {
+        display: flex;
+        /* Flexbox layout for side-by-side alignment */
+        justify-content: center;
+        /* Center images horizontally */
+        gap: 5px;
+        /* Space between the images */
+    }
+
+
+    .image-container img {
+        width: 49%;
+        /* Set a width for the images */
+        height: auto;
+        /* Maintain aspect ratio */
+        border: 2px solid #ccc;
+        /* Optional: border for styling */
+        border-radius: 10px;
+        /* Optional: rounded corners */
+    }
+
 }
