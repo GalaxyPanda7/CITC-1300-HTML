@@ -7,4 +7,5 @@
 <li><a href="Demo/index.html"> Advanced CSS </a></li>
 <li><a href="Responsive_Web_Design/index.html"> Responsive Web Design Example </a></li>
 <li><a href="Demo/index.html"> Responsive Web Design</a></li>
+<li><a href="FinalProject/index.html"> Final Project</a></li>
 </ul>
