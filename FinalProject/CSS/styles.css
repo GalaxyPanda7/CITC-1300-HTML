@@ -10,7 +10,7 @@ img {
     display: block;
     width: 70%;
     margin: 0 auto;
-    border: 2px solid #ccc;
+    border: 2px solid red;
     /* Optional: border for styling */
     border-radius: 10px;
     /* Optional: rounded corners */
@@ -120,7 +120,7 @@ aside,article {
 
 img {
     width: 70%;
-    border: 2px solid white;
+    border: 2px solid red;
 }
 
 footer {
@@ -179,7 +179,7 @@ aside,article {
 
 img {
     width: 80%;
-    border: 2px solid white;
+    border: 2px solid red;
 }
 
 footer {
@@ -205,7 +205,7 @@ footer {
     /* Set a width for the images */
     height: auto;
     /* Maintain aspect ratio */
-    border: 2px solid #ccc;
+    border: 2px solid red;
     /* Optional: border for styling */
     border-radius: 10px;
     /* Optional: rounded corners */
@@ -227,7 +227,7 @@ footer {
     /* Set a width for the images */
     height: auto;
     /* Maintain aspect ratio */
-    border: 2px solid #ccc;
+    border: 2px solid red;
     /* Optional: border for styling */
     border-radius: 10px;
     /* Optional: rounded corners */
@@ -251,11 +251,11 @@ footer {
     }
 
     article {
-        width: 70%;
+        width: 50%;
     }
 
     aside {
-        width: 30%;
+        width: 50%;
     }
 
     section {
@@ -279,14 +279,31 @@ footer {
 
 
     .image-container img {
-        width: 49%;
+        width: 40%;
         /* Set a width for the images */
         height: auto;
         /* Maintain aspect ratio */
-        border: 2px solid #ccc;
+        border: 2px solid red;
         /* Optional: border for styling */
         border-radius: 10px;
         /* Optional: rounded corners */
+    }
+    .captainamerica {
+        display: flex;
+        /* Flexbox layout for side-by-side alignment */
+
+    }
+    .captainamerica article{
+        width: 70%;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid red;
+    }
+    .captainamerica aside{
+        width: 30%;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid red;
     }
 
 }
