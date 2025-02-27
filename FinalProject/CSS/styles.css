@@ -1,6 +1,6 @@
 /*------------------------------Global------------------------------*/
 body {
-    background-image: url(../Images/Spiderwebbackground.jpg);
+    background-image: url(../Images/marvel-comic-book-background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -22,7 +22,7 @@ img {
     padding: 10px;
     background-color: black;
     border-radius: 10px;
-    border: 2px solid white;
+    border: 2px solid red;
 }
 
 .heading_style {
@@ -84,7 +84,7 @@ nav ul li a {
     text-decoration: none;
     margin-top: 10px;
     font-weight: bold;
-    border: 2px solid #ccc;
+    border: 2px solid red;
 }
 
 @media(min-width: 768px) {
@@ -111,10 +111,10 @@ nav ul li a {
 }
 
 section,
-aside {
+aside,article {
     width: 50%;
     padding: 10px;
-    border: 2px solid white;
+    border: 2px solid red;
     margin: 2px;
 }
 
@@ -126,7 +126,7 @@ img {
 footer {
     text-align: center;
     padding: 40px;
-    border: 2px solid white;
+    border: 2px solid red;
     margin-top: 10px;
 }
 
@@ -150,14 +150,14 @@ footer {
     }
 
     nav {
-        background-image: url("../ImagesSW/resizeddeathstar.jpg");
+        background-image: url(../Images/infinitystones-fotor-part2.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: scroll;
         padding: 2px;
         margin-top: 10px;
-        border: 2px solid white;
+        border: 2px solid red;
         position: sticky;
         top: 0;
         z-index: 100;
@@ -170,10 +170,10 @@ footer {
 }
 
 section,
-aside {
+aside,article {
     width: 95%;
     padding: 10px;
-    border: 2px solid white;
+    border: 2px solid red;
     margin: 2px;
 }
 
@@ -185,7 +185,7 @@ img {
 footer {
     text-align: center;
     padding: 40px;
-    border: 2px solid white;
+    border: 2px solid red;
     margin-top: 10px;
 }
 
@@ -247,7 +247,7 @@ footer {
     aside {
         padding: 10px;
         margin: 10px;
-        border: 2px solid white;
+        border: 2px solid red;
     }
 
     article {
