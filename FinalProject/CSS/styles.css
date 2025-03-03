@@ -36,7 +36,6 @@ h2 {
     text-shadow: 2px 2px 4px red;
 
     font-family: "Sixtyfour Convergence", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -51,7 +50,6 @@ h2 {
 h3 {
     color: aliceblue;
     font-family: "Sour Gummy", serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-variation-settings:
@@ -61,7 +59,6 @@ h3 {
 p {
     color: aliceblue;
     font-family: "Sour Gummy", serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     font-variation-settings:
@@ -73,7 +70,6 @@ ul,
 ol {
     color: aliceblue;
     font-family: "Sour Gummy", serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     font-variation-settings: "wdth" 100;
