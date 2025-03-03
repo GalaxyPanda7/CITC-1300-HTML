@@ -34,25 +34,55 @@ h2 {
     text-align: center;
     color: aliceblue;
     text-shadow: 2px 2px 4px red;
+
+    font-family: "Sixtyfour Convergence", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+
+
 }
 
 h3 {
     color: aliceblue;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 p {
     color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
 }
 
 ul,
 ol {
     color: aliceblue;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 a {
     color: red;
 }
+
 hr {
     border: 1px solid red;
 }
@@ -88,6 +118,11 @@ nav ul li a {
     margin-top: 10px;
     font-weight: bold;
     border: 2px solid red;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 @media(min-width: 768px) {
@@ -114,7 +149,8 @@ nav ul li a {
 }
 
 section,
-aside,article {
+aside,
+article {
     width: 50%;
     padding: 10px;
     border: 2px solid red;
@@ -125,6 +161,7 @@ img {
     width: 70%;
     border: 2px solid red;
 }
+
 
 footer {
     text-align: center;
@@ -173,7 +210,8 @@ footer {
 }
 
 section,
-aside,article {
+aside,
+article {
     width: 95%;
     padding: 10px;
     border: 2px solid red;
@@ -291,22 +329,45 @@ footer {
         border-radius: 10px;
         /* Optional: rounded corners */
     }
+
     .captainamerica {
         display: flex;
         /* Flexbox layout for side-by-side alignment */
 
     }
-    .captainamerica article{
+
+    .captainamerica article {
         width: 70%;
         padding: 10px;
         margin: 10px;
         border: 2px solid red;
     }
-    .captainamerica aside{
+
+    .captainamerica aside {
         width: 30%;
         padding: 10px;
         margin: 10px;
         border: 2px solid red;
     }
 
+}
+
+/* Mobile Styles for Images */
+@media(max-width: 767px) {
+
+    .image-container,
+    .image-container1 {
+        flex-direction: column;
+        /* Stack images vertically */
+        align-items: center;
+        /* Center images horizontally */
+    }
+
+    .image-container img,
+    .image-container1 img {
+        width: 100%;
+        /* Set the width to 100% for mobile devices */
+        margin-bottom: 10px;
+        /* Add some margin at the bottom for spacing */
+    }
 }
