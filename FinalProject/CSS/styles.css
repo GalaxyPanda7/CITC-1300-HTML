@@ -98,7 +98,7 @@ section {
     flex-direction: column; /* Stack children vertically */
 }
 
-iframe{
+video{
     width: 100%; /* Adjust width as needed */
     max-width: 600px; /* Optional: set a max-width */
     height: 400px; /* Adjust height as needed */
