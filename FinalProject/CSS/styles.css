@@ -91,6 +91,19 @@ hr {
     color: red;
     transition: color 0.5s ease;
 }
+section {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack children vertically */
+}
+
+iframe{
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Optional: set a max-width */
+    height: 400px; /* Adjust height as needed */
+    border: 2px solid red; /* Optional: border for styling */
+}
 
 
 /*------------------------------Mobile Styles------------------------------*/
